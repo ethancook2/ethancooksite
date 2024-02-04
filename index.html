@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet"><style>
+  body {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+    margin: 0 auto;
+    background-color: #101218;
+    max-width: 800px;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    /* border-style: solid; */
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    /* border-style: solid; */
+    /* border-color: transparent; */
+  }
+
+  .topnav .right-side a:hover {
+    text-decoration: underline;
+  }
+
+  .topnav a.active {
+    border-bottom-color: #2274A5;
+  }
+
+  .topnav .left-side {
+    text-align: left;
+    /* border-style: solid; */
+  }
+
+  .topnav .left-side a {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 14px 0px;
+  }
+  
+  .topnav .right-side {
+    text-align: right;
+    /* border-style: solid; */
+    align-self: flex-end;
+  }
+
+  .topnav .right-side a {
+    border-style: solid;
+    border-color: transparent;
+    transition: 500ms;
+  }
+
+  .main-text {
+    padding-top: 50px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+</style>
+<body>
+  <div class="topnav">
+    <div class="left-side">
+      <a href="./index.html">Ethan Cook</a>
+    </div>
+    <div class="right-side">
+      <a class="contact-button" href="./contact.html">/contact</a>
+      <a class="projects-button" href="./projects.html">/projects</a>
+      <a class="experience-button" href="./experience.html">/experience</a>
+      <a class="about-button" href="./about.html">/about</a>
+    </div>
+  </div>
+  <div class="main-text">
+    <p>Hi, I'm Ethan. Welcome to my website!</p>
+  </div>
+</body>
+</html>
